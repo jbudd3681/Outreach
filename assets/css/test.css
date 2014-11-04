@@ -1,3 +1,5 @@
+/* Global */
+
 * { 
 	Box-sizing: Border-box;
  }
@@ -16,7 +18,7 @@ h2 {
 }
 
 body {
-	background: green;
+	background: darkgreen;
 	margin: 0 auto;
 }
 
@@ -66,7 +68,7 @@ body {
 }
 
 .contentWrap {
-	background: darkgreen;
+	background: limegreen;
 	margin: 0 auto;
 	width:990px;
 	border-radius:15px;
@@ -77,6 +79,8 @@ body {
 	margin: 0 auto;
 	width:990px;
 }
+
+/* HOME PAGE */
 
 .text_wrap {
 	padding: 10px;
@@ -124,8 +128,9 @@ body {
 	height:25px;
 	color: white;
 	border-radius: 10px;
-	margin: 10px 0;	
+	margin: 10px 0 20px 0;	
 	border-style: none;
+	font-family: 'Indie Flower', cursive;
 }
 
 .submit_btn:hover {
@@ -140,6 +145,48 @@ body {
 	padding: 0 5px;
 	margin: 5px 0;
 }
+
+/* VIDEOS */
+
+.video_wrapper, .contact_wrap {
+	margin: 0 15px;
+}
+
+.video {
+	width: 560px;
+	margin: 0 auto;
+ 	padding-bottom: 10px;
+}
+
+/* CONTACT US */
+
+.form-2 {
+	width: 700px;
+	margin:0 auto;
+}
+
+.form-2 label {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+} 
+
+.contact_btn {
+	background: darkgreen;
+	width:230px;
+	height:40px;
+	color: white;
+	border-radius: 10px;
+	margin: 10px 0 20px 275px;	
+	border-style: none;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.contact_btn:hover {
+	background:yellow;
+	color:black;
+}
+
 /* SLIDE SHOW */
 
 #loading {
