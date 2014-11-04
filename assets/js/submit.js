@@ -1,7 +1,7 @@
 
 
 
-$('form').submit(function (e) {
+$("#homepage_info").submit(function (e) {
 
 	e.preventDefault();
 	
@@ -9,7 +9,7 @@ $('form').submit(function (e) {
 
 	$.ajax({
 		type: "POST",
-		url: "dispatcher/",
+		url: "//jcbcapturedmoments.com/lofbcdispatcher/",
 		data: data,
 		dataType: "json",
 		error: function (res){
