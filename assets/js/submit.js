@@ -9,7 +9,7 @@ $('form').submit(function (e) {
 
 	$.ajax({
 		type: "POST",
-		url: "http://www.jcbcapturedmoments.com/lofbcdispatcher/index.php",
+		url: "http://www.jcbcapturedmoments.com/lofbcdispatcher/infoform/",
 		data: data,
 		dataType: "json",
 		error: function (res){
